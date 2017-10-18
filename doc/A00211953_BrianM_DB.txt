@@ -1,0 +1,20 @@
+CREATE TABLE players (
+	id INTEGER IDENTITY,
+	Name VARCHAR(15) NOT NULL,	
+	Role VARCHAR(20) NOT NULL,
+	Age INTEGER NOT NULL,);
+
+
+INSERT INTO players VALUES ( null, 'Karl Darlow','Goalkeeper', '26');
+INSERT INTO players VALUES ( null, 'Chancel Mbemba', 'Centre-Back', '22');
+INSERT INTO players VALUES ( null, 'Ciaran Clark', 'Centre-Back', '27');
+INSERT INTO players VALUES ( null, 'Achraf Lazaar','Left-Back', '25');
+INSERT INTO players VALUES ( null, 'DeAndre Yedlin','Right-Back', '23');
+INSERT INTO players VALUES ( null, 'Vernon Anita', 'Defensive Midfield', '27');
+INSERT INTO players VALUES ( null, 'Jonjo Shelvey', 'Central Midfield','24');
+INSERT INTO players VALUES ( null, 'Matt Ritchie','Right Midfield','27');
+INSERT INTO players VALUES ( null, 'Yoan Gouffran', 'Left Wing', '30');
+INSERT INTO players VALUES ( null, 'Dwight Gayle','Centre Forward','26');
+INSERT INTO players VALUES ( null, 'Daryl Murphy', 'Centre Forward', '33');
+
+select * from players;

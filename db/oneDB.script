@@ -1,0 +1,13 @@
+CREATE TABLE players (id INTEGER IDENTITY,Name VARCHAR(15) NOT NULL,Role VARCHAR(20) NOT NULL,Age INTEGER NOT NULL)
+
+INSERT INTO PLAYERS VALUES(1,'Karl Darlow','Goalkeeper',26)
+INSERT INTO PLAYERS VALUES(2,'Chancel Mbemba','Centre-Back',22)
+INSERT INTO PLAYERS VALUES(3,'Ciaran Clark','Centre-Back',27)
+INSERT INTO PLAYERS VALUES(4,'Achraf Lazaar','Left-Back',25)
+INSERT INTO PLAYERS VALUES(5,'DeAndre Yedlin','Right-Back',23)
+INSERT INTO PLAYERS VALUES(6,'Vernon Anita','Defensive Midfield',27)
+INSERT INTO PLAYERS VALUES(7,'Jonjo Shelvey','Central Midfield',24)
+INSERT INTO PLAYERS VALUES(8,'Matt Ritchie','Right Midfield',27)
+INSERT INTO PLAYERS VALUES(9,'Yoan Gouffran','Left Wing',30)
+INSERT INTO PLAYERS VALUES(10,'Dwight Gayle','Centre Forward',26)
+INSERT INTO PLAYERS VALUES(11,'Daryl Murphy','Centre Forward',33)
